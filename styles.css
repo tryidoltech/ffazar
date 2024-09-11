@@ -602,8 +602,8 @@ body {
         justify-content: space-between;
 
         img {
-            height: 50px;
-            width: 50px;
+            height: 40px;
+            width: 40px;
         }
     }
 }
@@ -660,6 +660,73 @@ body {
         border-radius: 15px;
     }
 }
+
+/* ===================================================================== */
+/*------------------------- Footer Section ------------------------------*/
+/* ===================================================================== */
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none; 
+    }
+}
+.footer-child{
+    height: 100%;
+    border: 1px solid red;
+}
+.footer-left{
+    width: 40%;
+    padding-left: 120px;
+}
+.footer-Right{
+    width: 60%;
+
+    h1{
+        margin-left: 40px;
+    }
+
+    .nav-links-container{
+        border: 1px solid red;
+        display: flex;
+        width: 85%;
+
+        .nav-link-column{
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 40px;
+
+            a{
+                font-size: 15px;
+                margin: 10px 0;
+            }
+        }
+
+
+    }
+}
+
+
+
+
+
+
 
 /* ===================================================================== */
 /*--------------------------- Responsive Section ------------------------*/
@@ -978,8 +1045,8 @@ body {
             justify-content: space-between;
 
             img {
-                height: 50px;
-                width: 50px;
+                height: 40px;
+                width: 40px;
             }
         }
     }
