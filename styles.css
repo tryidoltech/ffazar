@@ -222,6 +222,9 @@ body {
 .industries {
     width: 100%;
 
+
+
+
     .ind-child1 {
         display: flex;
         align-items: center;
@@ -379,8 +382,8 @@ body {
         }
 
         p {
-            font-size: 20px;
-            width: 60%;
+            font-size: 15px;
+            width: 90%;
             margin: 10px;
             text-align: center;
         }
@@ -859,7 +862,7 @@ footer {
         .ind-child1 {
             h1 {
                 font-size: 30px;
-                font-weight: 500;
+                font-weight: 100;
                 width: 100%;
                 text-align: center;
             }
