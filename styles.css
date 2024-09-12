@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+  }
 body {
   font-family: poppins;
   color: white;
@@ -791,7 +794,7 @@ footer {
 .rotated-circle {
   height: 90vh;
   width: 90vh;
-  animation: rotate 3s infinite linear;
+  animation: rotate 13s infinite linear;
   position: relative;
   bottom: 92.5%;
   right: 17%;
@@ -852,7 +855,7 @@ footer {
 .animated-red-circle{
     height: 1000px;
     width: 1000px;
-    animation: rotate 3s infinite linear;
+    animation: rotate 13s infinite linear;
     position: absolute;
     top: 200px;
     left: 400px;
