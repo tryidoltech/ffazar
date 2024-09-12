@@ -13,6 +13,18 @@ body {
     rgb(47, 31, 112) 100%
   ); */
   background-color: black;
+
+  background: rgb(143, 28, 28);
+  background: radial-gradient(
+    circle,
+    rgba(143, 28, 28, 1) 0%,
+    rgba(153, 0, 0, 1) 13%,
+    rgba(56, 0, 0, 1) 45%,
+    rgba(0, 0, 0, 1) 59%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(113, 0, 108, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 /* Hide the scrollbar */
@@ -860,19 +872,19 @@ footer {
     text-align: center;
   }
 
-  img{
+  img {
     height: 300px;
     width: 500px;
   }
-  h1{
+  h1 {
     font-size: 50px;
   }
 }
-.immersive-tech-small-hadding{
-    font-weight: 200;
-    color: red;
-    font-size: 40px;
-    margin-left: 10px;
+.immersive-tech-small-hadding {
+  font-weight: 200;
+  color: red;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 /* ===================================================================== */
@@ -1258,8 +1270,8 @@ footer {
     }
   }
 
-    /*============================immersive section==============================*/
-.immersive-tech {
+  /*============================immersive section==============================*/
+  .immersive-tech {
     /* background-color: rgb(36, 36, 36); */
     height: fit-content;
     width: 100%;
@@ -1276,7 +1288,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+
     h1 {
       font-size: 30px;
     }
@@ -1303,31 +1315,30 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+
     p {
       width: 90%;
       font-size: 20px;
       text-align: center;
     }
-  
-    img{
+
+    img {
       height: 300px;
       width: 90%;
     }
-    h1{
+    h1 {
       font-size: 30px;
     }
-    p{
-        font-size: 15px;
+    p {
+      font-size: 15px;
     }
   }
-  .immersive-tech-small-hadding{
-      font-weight: 200;
-      color: red;
-      font-size: 30px;
-      margin-left: 10px;
+  .immersive-tech-small-hadding {
+    font-weight: 200;
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
   }
-  
 }
 
 @media (max-width: 767px) {
