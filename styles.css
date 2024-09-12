@@ -685,6 +685,43 @@ body {
 }
 
 /* ===================================================================== */
+/*------------------------- Animated Section ----------------------------*/
+/* ===================================================================== */
+.headding-slider-container {
+  width: 100vw;
+  height: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535;
+  background-color: #25252594;
+}
+
+.headding-slider {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  animation: scroll 18s alternate infinite;
+}
+
+.headding-slider h1 {
+  min-width: 200px;
+  margin-right: 40px;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ===================================================================== */
 /*------------------------- Footer Section ------------------------------*/
 /* ===================================================================== */
 
