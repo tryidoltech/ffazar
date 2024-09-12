@@ -848,12 +848,13 @@ footer {
 }
 
 .rotated-circle {
-  height: 90vh;
-  width: 90vh;
+  height: 130vh;
+  width:130vh;
   animation: rotate 13s infinite linear;
   position: relative;
-  bottom: 92.5%;
-  right: 17%;
+  bottom: 122.5%;
+  right: 47%;
+  z-index: -99;
 
   img {
     height: 100%;
