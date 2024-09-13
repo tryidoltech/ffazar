@@ -135,12 +135,14 @@ body {
   height: 100vh;
   backdrop-filter: blur(85px);
   overflow: hidden;
+  
 }
 
 .slider-container {
   display: flex;
   transition: transform 0.5s ease-in-out;
   height: 100%;
+  transition: .5s;
 }
 
 .slide {
@@ -792,12 +794,14 @@ footer {
 }
 
 .rotated-circle {
-  height: 130vh;
-  width:130vh;
+  height: 60vw;
+  width:60vw;
   animation: rotate 13s infinite linear;
   position: relative;
-  bottom: 122.5%;
-  right: 47%;
+  /* bottom: 122.5%; */
+  bottom: 50vw;
+  /* right: 47%; */
+  right: 15vw;
   z-index: -99;
 
   img {
@@ -854,8 +858,8 @@ footer {
   }
 }
 .animated-red-circle {
-  height: 1000px;
-  width: 1000px;
+  height: 50vw;
+  width: 50vw;
   animation: rotate 13s infinite linear;
   position: absolute;
   top: 200px;
