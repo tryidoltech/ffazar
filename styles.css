@@ -598,6 +598,10 @@ body {
       width: 40px;
     }
   }
+  .form-links2{
+    justify-content: start;
+    gap: 10px;
+  }
 }
 
 .contact-us-child2 {
