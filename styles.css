@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --hedding:50px;
+  --para:15px;
+}
 ::selection {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
@@ -199,12 +203,12 @@ body {
 
     h1 {
       margin-top: 30px;
-      font-size: 50px;
+      font-size: var(--hedding);
       font-weight: 100;
     }
 
     p {
-      font-size: 20px;
+      font-size: var(--para);
       width: 60%;
       margin: 10px;
       text-align: center;
@@ -218,7 +222,10 @@ body {
     flex-wrap: wrap;
 
     .ind-card {
-      width: 500px;
+      /* width: 500px; */
+      width: 25%;
+      min-width: 350px;
+      
       height: 320px;
       background-color: rgba(0, 0, 0, 0.689);
       margin: 10px;
@@ -249,6 +256,7 @@ body {
 
         p {
           line-height: 1.4;
+          font-size: var(--para);
         }
       }
 
@@ -345,12 +353,12 @@ body {
 
     h1 {
       margin-top: 30px;
-      font-size: 50px;
+      font-size: var(--hedding);
       font-weight: 100;
     }
 
     p {
-      font-size: 15px;
+      font-size: var(--para);
       width: 90%;
       margin: 10px;
       text-align: center;
@@ -364,7 +372,8 @@ body {
     flex-wrap: wrap;
 
     .ind-card {
-      width: 700px;
+      width: 40%;
+      min-width: 350px;
       height: 320px;
       background-color: rgba(0, 0, 0, 0.689);
       margin: 10px;
@@ -393,6 +402,7 @@ body {
 
         p {
           line-height: 1.4;
+          font-size: var(--para);
         }
       }
 
@@ -457,7 +467,7 @@ body {
 /* ===================================================================== */
 
 .virtual-reality {
-  padding: 100px;
+  padding: 100px 100px 0 100px;
 
   .virtual-reality-child-1 {
     width: 100%;
@@ -472,14 +482,14 @@ body {
       height: fit-content;
 
       h1 {
-        font-size: 50px;
+        font-size: var(--hedding);
         margin: 10px 0;
         width: fit-content;
         border-bottom: 2px solid red;
       }
 
       p {
-        font-size: 20px;
+        font-size: var(--para);
         margin: 10px 0;
         margin-right: 20px;
         line-height: 1.4;
@@ -508,11 +518,11 @@ body {
     padding: 60px;
 
     h1 {
-      font-size: 50px;
+      font-size: var(--hedding);
     }
 
     p {
-      font-size: 20px;
+      font-size: var(--para);
     }
   }
 
@@ -552,14 +562,14 @@ body {
   padding-left: 120px;
 
   h1 {
-    font-size: 50px;
+    font-size: var(--hedding);
     width: fit-content;
     border-bottom: 2px solid red;
     margin-bottom: 20px;
   }
 
   p {
-    font-size: 20px;
+    font-size: var(--para);
     width: 70%;
   }
 
@@ -665,7 +675,7 @@ body {
 .headding-slider h1 {
   min-width: 200px;
   margin-right: 40px;
-  font-size: 24px;
+  font-size: var(--para);
   white-space: nowrap;
 }
 
@@ -693,13 +703,13 @@ footer {
   background-size: cover;
 
   h1 {
-    font-size: 50px;
+    font-size: var(--hedding);
     border-bottom: 1px solid red;
     width: fit-content;
   }
 
   p {
-    font-size: 20px;
+    font-size: var(--para);
     margin-top: 10px;
   }
 
@@ -756,11 +766,13 @@ footer {
 /* ===================================================================== */
 
 .knowledge-hub {
-  height: 100vh;
+  height: fit-content;
   width: 100%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px 0;
 }
 
 .knowledge-hub-child {
@@ -770,18 +782,18 @@ footer {
 
 .knowledge-hub-child1 {
   padding-left: 120px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 
   h1 {
-    font-size: 50px;
+    font-size: var(--hedding);
     margin-bottom: 10px;
     width: fit-content;
     border-bottom: 2px solid red;
   }
 
   p {
-    font-size: 20px;
-    width: 77%;
+    font-size: var(--para);
+    width: 100%;
   }
 }
 
@@ -797,11 +809,12 @@ footer {
   height: 60vw;
   width:60vw;
   animation: rotate 13s infinite linear;
-  position: relative;
+  position: absolute;
   /* bottom: 122.5%; */
-  bottom: 50vw;
+  top: -10vw;
+  left: -10vw;
   /* right: 47%; */
-  right: 15vw;
+  /* right: 15vw; */
   z-index: -99;
 
   img {
@@ -848,13 +861,13 @@ footer {
   flex-direction: column;
 
   h1 {
-    font-size: 50px;
+    font-size: var(--hedding);
     border-bottom: 2px solid red;
     width: fit-content;
     margin-bottom: 10px;
   }
   p {
-    font-size: 20px;
+    font-size: var(--para);
   }
 }
 .animated-red-circle {
@@ -891,7 +904,7 @@ footer {
 
   p {
     width: 50%;
-    font-size: 20px;
+    font-size: var(--para);
     text-align: center;
   }
 
@@ -900,7 +913,7 @@ footer {
     width: 500px;
   }
   h1 {
-    font-size: 50px;
+    font-size: var(--hedding);
   }
 }
 .immersive-tech-small-hadding {
