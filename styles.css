@@ -3,18 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --hedding:50px;
-  --para:15px;
+
+:root {
+  --hedding: 50px;
+  --para: 15px;
 }
+
 ::selection {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
 }
-body,html{
+
+body,
+html {
   height: 100%;
   width: 100%;
 }
+
 body {
   font-family: Poppins;
   color: white;
@@ -26,27 +31,23 @@ body {
   background-color: black;
 
   background: rgb(143, 28, 28);
-  background: radial-gradient(
-    circle,
-    rgba(143, 28, 28, 1) 0%,
-    rgba(153, 0, 0, 1) 13%,
-    rgba(56, 0, 0, 1) 45%,
-    rgba(0, 0, 0, 1) 59%,
-    rgba(0, 0, 0, 1) 100%,
-    rgba(113, 0, 108, 1) 100%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(143, 28, 28, 1) 0%,
+      rgba(153, 0, 0, 1) 13%,
+      rgba(56, 0, 0, 1) 45%,
+      rgba(0, 0, 0, 1) 59%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(113, 0, 108, 1) 100%,
+      rgba(0, 0, 0, 1) 100%);
 
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 0%,
-    rgba(36, 42, 163, 1) 6%,
-    rgba(53, 55, 172, 1) 10%,
-    rgba(154, 130, 223, 1) 54%,
-    rgba(209, 172, 251, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(36, 42, 163, 1) 6%,
+      rgba(53, 55, 172, 1) 10%,
+      rgba(154, 130, 223, 1) 54%,
+      rgba(209, 172, 251, 1) 100%);
 }
 
 /* Hide the scrollbar */
@@ -139,7 +140,7 @@ body {
   height: 100vh;
   backdrop-filter: blur(85px);
   overflow: hidden;
-  
+
 }
 
 .slider-container {
@@ -158,7 +159,7 @@ body {
   background-position: center;
   background-size: cover;
 
-  img{
+  img {
     height: 100%;
     width: 100%;
   }
@@ -221,11 +222,13 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 
+
+
     .ind-card {
       /* width: 500px; */
       width: 25%;
       min-width: 350px;
-      
+
       height: 320px;
       background-color: rgba(0, 0, 0, 0.689);
       margin: 10px;
@@ -240,6 +243,7 @@ body {
       transition: 1s;
       overflow: hidden;
 
+
       .ind-card-img {
         width: 100%;
         height: 50%;
@@ -249,6 +253,7 @@ body {
 
       .ind-card-content {
         padding: 20px;
+
 
         h1 {
           margin: 15px 0;
@@ -683,6 +688,7 @@ body {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -755,6 +761,7 @@ footer {
       }
     }
   }
+
   .footer-headding {
     font-weight: bolder;
     color: red;
@@ -807,7 +814,7 @@ footer {
 
 .rotated-circle {
   height: 60vw;
-  width:60vw;
+  width: 60vw;
   animation: rotate 13s infinite linear;
   position: absolute;
   /* bottom: 122.5%; */
@@ -847,11 +854,13 @@ footer {
   width: 100%;
   position: relative;
 }
+
 .immersive-tech-child {
   height: fit-content;
   width: 100%;
   /* border: 1px solid blueviolet; */
 }
+
 .immersive-tech-child1 {
   height: fit-content;
   width: 100%;
@@ -865,11 +874,14 @@ footer {
     border-bottom: 2px solid red;
     width: fit-content;
     margin-bottom: 10px;
+    /* font-weight: 100; */
   }
+
   p {
     font-size: var(--para);
   }
 }
+
 .animated-red-circle {
   height: 50vw;
   width: 50vw;
@@ -884,6 +896,7 @@ footer {
     width: 100%;
   }
 }
+
 .immersive-tech-child2 {
   height: fit-content;
   width: 100%;
@@ -892,6 +905,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .immersive-tech-child2-childs {
   width: 50%;
   height: fit-content;
@@ -912,10 +926,12 @@ footer {
     height: 300px;
     width: 500px;
   }
+
   h1 {
     font-size: var(--hedding);
   }
 }
+
 .immersive-tech-small-hadding {
   font-weight: 500;
   color: red;
@@ -928,9 +944,11 @@ footer {
 /* ===================================================================== */
 
 @media (max-width: 768px) {
+
   /* ==============================nav bar===============================*/
   .navbar {
     padding: 20px 20px;
+
     a {
       font-size: 1.2em;
     }
@@ -1312,11 +1330,13 @@ footer {
     height: fit-content;
     width: 100%;
   }
+
   .immersive-tech-child {
     height: fit-content;
     width: 100%;
     /* border: 1px solid blueviolet; */
   }
+
   .immersive-tech-child1 {
     height: fit-content;
     width: 100%;
@@ -1328,11 +1348,13 @@ footer {
     h1 {
       font-size: 30px;
     }
+
     p {
       font-size: 15px;
       text-align: center;
     }
   }
+
   .immersive-tech-child2 {
     height: fit-content;
     width: 100%;
@@ -1342,6 +1364,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
   }
+
   .immersive-tech-child2-childs {
     width: 100%;
     height: fit-content;
@@ -1362,25 +1385,30 @@ footer {
       height: 300px;
       width: 90%;
     }
+
     h1 {
       font-size: 30px;
     }
+
     p {
       font-size: 15px;
     }
   }
+
   .immersive-tech-small-hadding {
     font-weight: 200;
     color: red;
     font-size: 30px;
     margin-left: 10px;
   }
+
   .animated-red-circle {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
+
   /*============================hero section==============================*/
   .slider {
     height: 50vh;
