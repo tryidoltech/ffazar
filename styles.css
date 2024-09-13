@@ -806,9 +806,9 @@ footer {
 
 .knowledge-hub-child2 {
   img {
-    position: relative;
-    left: 0.5%;
-    top: 5%;
+    height: 100%;
+    width: 100%;
+
   }
 }
 
