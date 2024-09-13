@@ -7,6 +7,10 @@
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
 }
+body,html{
+  height: 100%;
+  width: 100%;
+}
 body {
   font-family: poppins;
   color: white;
@@ -142,83 +146,19 @@ body {
 .slide {
   min-width: 100%;
   height: 100%;
-  /* background-color: #191919; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: url('./assets/bghero.png'); */
   background-position: center;
   background-size: cover;
 
-  .slide-child {
-    /* border: 1px solid red; */
+  img{
     height: 100%;
-  }
-
-  .slide-left {
-    width: 40%;
-    padding-left: 80px;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-
-    h1 {
-      font-size: 4vw;
-    }
-
-    p {
-      font-size: 20px;
-      width: 80%;
-    }
-
-    button {
-      font-size: 16px;
-      background: none;
-      color: white;
-      padding: 15px 23px;
-      border: 1px solid white;
-      border-radius: 10px;
-      margin: 20px 0;
-    }
-
-    .counter {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 70%;
-
-      /* border: 1px solid red; */
-      h1 {
-        font-size: 40px;
-      }
-
-      p {
-        font-size: 15px;
-        width: 100%;
-      }
-
-      .counter1,
-      .counter2,
-      .counter3 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-    }
-  }
-
-  .slide-right {
-    width: 60%;
-
-    img {
-      height: 100%;
-      width: 100%;
-      border: 1px solid red;
-    }
+    width: 100%;
   }
 }
+
+
 
 /* Control Dots */
 .dots {
@@ -648,7 +588,7 @@ body {
 
   input {
     height: 50px;
-    width: 380px;
+    width: 19vw;
     padding-left: 30px;
     margin: 10px;
     outline: none;
@@ -658,7 +598,7 @@ body {
 
   select {
     height: 50px;
-    width: 380px;
+    width: 19vw;
     margin: 10px;
     padding-left: 30px;
     outline: none;
@@ -668,7 +608,7 @@ body {
 
   textarea {
     height: 100px;
-    width: 780px;
+    width: 41vw;
     margin: 10px;
     outline: none;
     padding: 20px;
@@ -678,7 +618,9 @@ body {
 
   button {
     height: 50px;
-    width: 780px;
+    /* width: 780px; */
+    width: 41vw;
+    margin: 0 auto;
     margin: 10px;
     background-color: black;
     color: white;
@@ -689,7 +631,8 @@ body {
 
   form {
     background-color: white;
-    width: 815px;
+    /* width: 815px; */
+    width: 43vw;
     margin-top: 40px;
     border: 5px solid gray;
     border-radius: 15px;
