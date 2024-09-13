@@ -158,7 +158,6 @@ body {
   .slide-child{
     height: 100%;
     width: 50%;
-    border: 1px solid red;
 
   }
 
@@ -198,7 +197,12 @@ body {
 
     }
     .slide-child2{
+      /* padding: 25%; */
 
+      img{
+        height: 100%;
+        width: 100%;
+      }
     }
  
 
@@ -1480,7 +1484,6 @@ footer {
     .slide-child{
       /* height: 50%; */
       width: 100%;
-      border: 1px solid red;
   
     }
   
