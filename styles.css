@@ -1566,3 +1566,105 @@ footer {
     }
   }
 }
+
+/* ===================================================================== */
+/*---------------------------Popup Form  Section ------------------------*/
+/* ===================================================================== */
+
+/* Popup Button */
+.popup-button {
+  position: fixed;
+  top: 50%;
+  left: -60px;
+  transform: translateY(-50%);
+}
+
+#openPopup {
+  background-color: var(--border);
+  color: white;
+  transform: rotate(90deg);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgb(255, 0, 0); */
+  backdrop-filter: blur(40px);
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: none;
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid rgb(64, 64, 64);
+  
+}
+
+.form-content {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: var(--border);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+  .popup-form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #openPopup {
+    padding: 8px 16px;
+  }
+
+  button[type="submit"] {
+    padding: 8px;
+  }
+}
