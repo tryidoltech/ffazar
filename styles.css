@@ -1347,7 +1347,7 @@ footer {
 
     h1 {
       font-size: 30px;
-      border-bottom: 1px solid red;
+      border-bottom: 1px solid var(--border);
       width: fit-content;
     }
 
@@ -1378,7 +1378,7 @@ footer {
 
     h2 {
       margin-left: 20px;
-      border-bottom: 1px solid red;
+      border-bottom: 1px solid var(--border);
       width: fit-content;
       text-align: left;
     }
@@ -1479,7 +1479,7 @@ footer {
 
   .immersive-tech-small-hadding {
     font-weight: 200;
-    color: red;
+    color: var(--border);
     font-size: 30px;
     margin-left: 10px;
   }
