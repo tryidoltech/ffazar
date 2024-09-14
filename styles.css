@@ -1207,6 +1207,8 @@ footer {
   }
 
   .knowledge-hub-child2 {
+    height: 40vh;
+    width: 100%;
     img {
       position: relative;
       left: 0%;
