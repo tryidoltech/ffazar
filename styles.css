@@ -1194,7 +1194,7 @@ footer {
   .knowledge-hub-child1 {
     padding-left: 0px;
     padding-top: 0px;
-    height: 65vh;
+    /* height: 65vh; */
 
     h1 {
       font-size: 30px;
