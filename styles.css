@@ -1580,13 +1580,33 @@ footer {
   transform: translateY(-50%);
 }
 
-#openPopup {
+.popup-button {
   background-color: var(--border);
-  color: white;
   transform: rotate(90deg);
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  button{
+    background: none;
+    border: none;
+    color: white;
+  }
+}
+.popup-button-2{
+  position: fixed;
+  top: 50%;
+  right: -40px;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  background-color: var(--border);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  button{
+    background: none;
+    border: none;
+    color: white;
+  }
 }
 
 .popup-form {
