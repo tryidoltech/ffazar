@@ -1129,7 +1129,7 @@ footer {
 
         video {
           height: 200px;
-          width: 400px;
+          width: 320px;
           margin: 0 auto;
         }
       }
@@ -1148,7 +1148,7 @@ footer {
         margin: 0;
       }
 
-      p {
+      p { 
         font-size: 15px;
       }
 
@@ -1187,7 +1187,7 @@ footer {
   }
 
   .knowledge-hub-child {
-    height: 50%;
+    height: fit-content;
     width: 100%;
   }
 
