@@ -69,9 +69,11 @@ body {
     rgba(0, 0, 0, 1) 100%
   );
 
+}
+#main{
+  
   background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
 }
-
 /* Hide the scrollbar */
 ::-webkit-scrollbar {
   width: 0;
