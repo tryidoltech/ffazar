@@ -247,6 +247,46 @@ body {
 }
 
 /* ===================================================================== */
+/*--------------------------- Who we are Section ------------------------*/
+/* ===================================================================== */
+
+
+.who-we-are{
+  height: 70vh;
+  width: 100%;
+  position: relative; 
+  h1{
+    color: rgb(20, 30, 48);
+    font-size: 50px;
+  }
+  p{
+    color: rgb(20, 30, 48);
+  }
+  .wwa-content-container{
+    height: 20%;
+    /* border: 1px solid red; */
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px;
+    text-align: center;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+
+
+
+/* ===================================================================== */
 /*--------------------------- Industries Section ------------------------*/
 /* ===================================================================== */
 
@@ -1091,8 +1131,48 @@ footer {
   /*================================hero section==============================*/
   .slider {
     height: 100vh;
-    /*==========================industries section==============================*/
   }
+  
+      /* ============================who we are================================== */
+      
+    
+
+.who-we-are{
+  height: 90vh;
+  width: 100%;
+  position: relative; 
+  h1{
+    color: rgb(20, 30, 48);
+    font-size: 30px;
+  }
+  p{
+    color: rgb(20, 30, 48);
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .wwa-content-container{
+    height: 20%;
+    /* border: 1px solid red; */
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+
+      /*==========================industries section==============================*/
 
   .industries {
     .ind-child1 {
@@ -1501,6 +1581,7 @@ footer {
   .animated-red-circle {
     display: none;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -1572,9 +1653,7 @@ footer {
       height: 40vh;
     }
   }
-  .popup-button,.popup-button-2{
-    padding: 0px;
-  }
+
 }
 
 /* ===================================================================== */
