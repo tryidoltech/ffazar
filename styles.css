@@ -7,7 +7,7 @@
 :root {
   --hedding: 50px;
   --para: 15px;
-  --border:rgb(234, 0, 255);
+  --border:rgb(70, 130, 180);
 }
 
 ::selection {
@@ -24,15 +24,15 @@ html {
 body {
   font-family: Poppins;
   color: white;
-  /* background: linear-gradient(
+  background: linear-gradient(
     90deg,
     rgb(77, 25, 121) 0%,
     rgb(47, 31, 112) 100%
-  ); */
+  );
 
   /* ========================================================== */
 
-  background-color: black;
+  /* background-color: black;
   background: rgb(143, 28, 28);
   background: radial-gradient(
     circle,
@@ -43,7 +43,7 @@ body {
     rgba(0, 0, 0, 1) 100%,
     rgba(113, 0, 108, 1) 100%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ); */
 
   /* ======================================================== */
   /* background: rgb(2, 0, 36);
@@ -68,6 +68,8 @@ body {
     rgba(113, 0, 108, 1) 100%,
     rgba(0, 0, 0, 1) 100%
   );
+
+  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
 }
 
 /* Hide the scrollbar */
@@ -84,16 +86,16 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 5vw;
-  color: white;
+  color: rgb(0, 0, 0);
   border-bottom: 1px solid rgba(255, 255, 255, 0.356);
-  background-color: rgba(0, 0, 0, 0.733);
+  background-color: rgb(255, 255, 255);
 }
 
 .logo a {
   font-size: 1.2vw;
   font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .nav-links {
@@ -112,7 +114,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 0.9vw;
   text-transform: uppercase;
 }
@@ -146,7 +148,7 @@ body {
 .hamburger .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 10px;
   transition: 0.4s;
 }
@@ -289,7 +291,7 @@ body {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      border: 1px solid rgba(255, 255, 255, 0.418);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
       padding: 0px;
       border-radius: 10px;
       position: relative;
@@ -330,37 +332,37 @@ body {
     }
 
     #ind-card-1 .ind-card-img {
-      background: url("./assets/Agriculture.jpg");
+      background: url("./assets/Agriculture1.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-2 .ind-card-img {
-      background: url("./assets/Manufacturing.jpg");
+      background: url("./assets/Manufacturing1.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-3 .ind-card-img {
-      background: url("./assets/Automobile.jpg");
+      background: url("./assets/Automobile1.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-4 .ind-card-img {
-      background: url("./assets/Education.jpg");
+      background: url("./assets/Education1.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-5 .ind-card-img {
-      background: url("./assets/PharmaCeutical.jpg");
+      background: url("./assets/Pharmaceuticels1.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-6 .ind-card-img {
-      background: url("./assets/Aviation.jpg");
+      background: url("./assets/Aviation1.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
@@ -372,13 +374,13 @@ body {
     }
 
     #ind-card-8 .ind-card-img {
-      background: url("./assets/Real-Estate.jpg");
+      background: url("./assets/Real-Estate1.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
 
     #ind-card-9 .ind-card-img {
-      background: url("./assets/ARMY.jpg");
+      background: url("./assets/Defence1.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
     }
@@ -437,12 +439,12 @@ body {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      border: 1px solid rgba(255, 255, 255, 0.418);
       padding: 0px;
       border-radius: 10px;
       position: relative;
       transition: 1s;
       overflow: hidden;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
       .ind-card-img {
         width: 100%;
@@ -476,7 +478,7 @@ body {
     }
 
     #ind-card-1 .ind-card-img {
-      background: url("./assets/Agriculture.jpg");
+      background: url("./assets/Traning-Solutions.jpg");
       background-size: cover;
       border-radius: 10px 10px 0 0;
       position: relative;
@@ -484,7 +486,7 @@ body {
     }
 
     #ind-card-2 .ind-card-img {
-      background: url("./assets/Manufacturing.jpg");
+      background: url("./assets/Product-Solutions.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
       position: relative;
@@ -492,7 +494,7 @@ body {
     }
 
     #ind-card-3 .ind-card-img {
-      background: url("./assets/Automobile.jpg");
+      background: url("./assets/AR-VR-Labs.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
       position: relative;
@@ -500,7 +502,7 @@ body {
     }
 
     #ind-card-4 .ind-card-img {
-      background: url("./assets/Education.jpg");
+      background: url("./assets/Remote-Assistance.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
       position: relative;
@@ -1039,6 +1041,10 @@ footer {
     right: 0;
     height: 100vh;
     top: 0;
+   
+    a{
+      color: white;
+    }
     background-color: rgba(0, 0, 0, 0.144);
     backdrop-filter: blur(20px);
     border-left: 1px solid #565656;
@@ -1566,6 +1572,9 @@ footer {
       height: 40vh;
     }
   }
+  .popup-button,.popup-button-2{
+    padding: 0px;
+  }
 }
 
 /* ===================================================================== */
@@ -1592,22 +1601,7 @@ footer {
     color: white;
   }
 }
-.popup-button-2{
-  position: fixed;
-  top: 50%;
-  right: -40px;
-  transform: translateY(-50%);
-  transform: rotate(-90deg);
-  background-color: var(--border);
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  button{
-    background: none;
-    border: none;
-    color: white;
-  }
-}
+
 
 .popup-form {
   position: fixed;
@@ -1622,6 +1616,7 @@ footer {
   display: none;
   width: 90%;
   max-width: 500px;
+  cursor: pointer;
   border: 1px solid rgb(64, 64, 64);
   
 }
@@ -1687,5 +1682,25 @@ button[type="submit"] {
 
   button[type="submit"] {
     padding: 8px;
+  }
+}
+
+
+/* https://virtualizetechnologies.com/ */
+
+/* who we are === entrXXXX */
+/* know XXXXX */
+
+
+.classes{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 80px;
+  left: 0;
+
+  #particles-js{
+    height: 100%;
+    width: 100%;
   }
 }
