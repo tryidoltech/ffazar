@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -24,11 +25,7 @@ html {
 body {
   font-family: Poppins;
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgb(77, 25, 121) 0%,
-    rgb(47, 31, 112) 100%
-  );
+  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
 
   /* ========================================================== */
 
@@ -57,7 +54,7 @@ body {
 
   /* ============================================================ */
 
-  background: rgb(205, 3, 231);
+  /* background: rgb(205, 3, 231);
   background: radial-gradient(
     circle,
     rgba(205, 3, 231, 1) 0%,
@@ -67,7 +64,7 @@ body {
     rgba(0, 0, 0, 1) 100%,
     rgba(113, 0, 108, 1) 100%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ); */
 
 }
 #main{
@@ -98,6 +95,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: rgb(0, 0, 0);
+
+  img{
+    height: 35px;
+    width: 100px;
+  }
 }
 
 .nav-links {
@@ -188,7 +190,7 @@ body {
 
     h1 {
       font-size: 60px;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       text-transform: uppercase;
     }
     p {
@@ -852,7 +854,9 @@ footer {
 
   .footer-headding {
     font-weight: bolder;
-    color: var(--border);
+    color: white;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 5px;
   }
 }
 
@@ -1545,6 +1549,12 @@ footer {
   .animated-red-circle {
     display: none;
   }
+  .loader-container{
+   img{
+    height: 70px;
+    width: 250px;
+   }
+  }
 
 }
 
@@ -1747,3 +1757,124 @@ button[type="submit"] {
     width: 100%;
   }
 }
+
+/* ======================== */
+.loader-container{
+  position: absolute;
+  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+  z-index: 9999;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  --size: 250px;
+  --duration: 2s;
+  --logo-color: grey;
+  --background: linear-gradient(
+    0deg,
+    rgba(50, 50, 50, 0.2) 0%,
+    rgba(100, 100, 100, 0.2) 100%
+  );
+  height: var(--size);
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.loader .box {
+  position: absolute;
+  background: rgba(100, 100, 100, 0.15);
+  background: var(--background);
+  border-radius: 50%;
+  border-top: 1px solid rgba(100, 100, 100, 1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+  backdrop-filter: blur(5px);
+  animation: ripple var(--duration) infinite ease-in-out;
+}
+
+.loader .box:nth-child(1) {
+  inset: 40%;
+  z-index: 99;
+}
+
+.loader .box:nth-child(2) {
+  inset: 30%;
+  z-index: 98;
+  border-color: rgba(100, 100, 100, 0.8);
+  animation-delay: 0.2s;
+}
+
+.loader .box:nth-child(3) {
+  inset: 20%;
+  z-index: 97;
+  border-color: rgba(100, 100, 100, 0.6);
+  animation-delay: 0.4s;
+}
+
+.loader .box:nth-child(4) {
+  inset: 10%;
+  z-index: 96;
+  border-color: rgba(100, 100, 100, 0.4);
+  animation-delay: 0.6s;
+}
+
+.loader .box:nth-child(5) {
+  inset: 0%;
+  z-index: 95;
+  border-color: rgba(100, 100, 100, 0.2);
+  animation-delay: 0.8s;
+}
+
+.loader .logo {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  padding: 30%;
+}
+
+.loader .logo svg {
+  fill: var(--logo-color);
+  width: 100%;
+  animation: color-change var(--duration) infinite ease-in-out;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+  }
+  50% {
+    transform: scale(1.3);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 20px -0px;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    fill: var(--logo-color);
+  }
+  50% {
+    fill: white;
+  }
+  100% {
+    fill: var(--logo-color);
+  }
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
+

@@ -196,18 +196,32 @@ gsap.from(".immersive-tech .immersive-tech-child2 .immersive-tech-child2-childs"
   // opacity: 0,
   // scale: 1.2,
   duration: 1,
-  y:200,
+  y:400,
  
     // scrub: 5,
   // stagger: 1,
   scrollTrigger: {
     trigger: ".immersive-tech",
-    scroller: "#main",
-    // start: "top 50%",
-    end:"top 2%",
-    // markers:true,
+    scroller: "body",
+    start: "top 50%",
+    end:"top 40%",
+// markers:true,
     scrub:1
     // delay:.5
   },
   
 });
+
+
+// loading=================
+
+window.onload = function() {
+    // Show the div when the page loads
+    const tempDiv = document.getElementById('temporaryDiv');
+    tempDiv.classList.remove('hidden');
+
+    // Hide the div after 3 seconds
+    setTimeout(function() {
+        tempDiv.style.display = 'none';
+    }, 3000);
+};
