@@ -650,10 +650,10 @@ body {
 
 .contact-us {
   height: fit-content;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   display: flex;
-  margin-top: 200px;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -667,7 +667,8 @@ body {
 
 .contact-us-child2 {
   /* padding-right: 120px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
 
   input {
     height: 50px;
