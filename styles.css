@@ -74,7 +74,7 @@ body {
   
   background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
 }
-Hide the scrollbar
+/* Hide the scrollbar */
 ::-webkit-scrollbar {
   width: 0;
 }
@@ -648,62 +648,24 @@ Hide the scrollbar
 
 .contact-us {
   height: fit-content;
+  border: 1px solid red;
   width: 100%;
   display: flex;
   margin-top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-us-child {
   height: 100%;
-  width: 50%;
+  width: fit-content;
 }
 
-.contact-us-child1 {
-  padding-left: 120px;
 
-  h1 {
-    font-size: var(--hedding);
-    width: fit-content;
-    border-bottom: 2px solid var(--border);
-    margin-bottom: 20px;
-  }
-
-  p {
-    font-size: var(--para);
-    width: 70%;
-  }
-
-  .contact-links {
-    height: 100px;
-    width: 300px;
-    margin: 20px 0;
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form-links {
-    height: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    img {
-      height: 40px;
-      width: 40px;
-      border: 1px solid white;
-      border-radius: 50%;
-      padding: 5px;
-    }
-  }
-  .form-links2 {
-    justify-content: start;
-    gap: 10px;
-  }
-}
 
 .contact-us-child2 {
-  padding-right: 120px;
+  /* padding-right: 120px; */
+  border: 1px solid red;
 
   input {
     height: 50px;
