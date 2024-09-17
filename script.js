@@ -72,114 +72,115 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 
 
 particlesJS("particles-js", {
-  "particles": {
-      "number": {
+ 
+    "particles": {
+        "number": {
           "value": 80,
           "density": {
-              "enable": true,
-              "value_area": 800
+            "enable": true,
+            "value_area": 800
           }
-      },
-      "color": {
-          "value": "#fffff5"
-      },
-      "shape": {
-          "type": "polygon",
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
           "stroke": {
-              "width": 0,
-              "color": "#000000"
+            "width": 0,
+            "color": "#000000"
           },
           "polygon": {
-              "nb_sides": 10
+            "nb_sides": 5
           },
           "image": {
-              "src": "img/github.svg",
-              "width": 100,
-              "height": 100
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
           }
-      },
-      "opacity": {
-          "value": 0.2878848460615755,
+        },
+        "opacity": {
+          "value": 0.5,
           "random": false,
           "anim": {
-              "enable": false,
-              "speed": 1,
-              "opacity_min": 0.1,
-              "sync": false
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
           }
-      },
-      "size": {
+        },
+        "size": {
           "value": 3,
           "random": true,
           "anim": {
-              "enable": false,
-              "speed": 40,
-              "size_min": 0.1,
-              "sync": false
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
           }
-      },
-      "line_linked": {
+        },
+        "line_linked": {
           "enable": true,
           "distance": 150,
           "color": "#ffffff",
           "opacity": 0.4,
           "width": 1
-      },
-      "move": {
+        },
+        "move": {
           "enable": true,
-          "speed": 6,
-          "direction": "top",
+          "speed": 2,
+          "direction": "none",
           "random": false,
           "straight": false,
           "out_mode": "out",
           "bounce": false,
           "attract": {
-              "enable": false,
-              "rotateX": 600,
-              "rotateY": 1200
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
           }
-      }
-  },
-  "interactivity": {
-      "detect_on": "canvas",
-      "events": {
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
           "onhover": {
-              "enable": true,
-              "mode": "repulse"
+            "enable": true,
+            "mode": "repulse"
           },
           "onclick": {
-              "enable": true,
-              "mode": "push"
+            "enable": true,
+            "mode": "push"
           },
           "resize": true
-      },
-      "modes": {
+        },
+        "modes": {
           "grab": {
-              "distance": 400,
-              "line_linked": {
-                  "opacity": 1
-              }
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
           },
           "bubble": {
-              "distance": 400,
-              "size": 40,
-              "duration": 2,
-              "opacity": 8,
-              "speed": 3
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
           },
           "repulse": {
-              "distance": 200,
-              "duration": 0.4
+            "distance": 200,
+            "duration": 0.4
           },
           "push": {
-              "particles_nb": 4
+            "particles_nb": 4
           },
           "remove": {
-              "particles_nb": 2
+            "particles_nb": 2
           }
-      }
-  },
-  "retina_detect": true
+        }
+      },
+      "retina_detect": true
 });
 
 
