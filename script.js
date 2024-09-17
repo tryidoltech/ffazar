@@ -202,7 +202,7 @@ gsap.from(".immersive-tech .immersive-tech-child2 .immersive-tech-child2-childs"
   // stagger: 1,
   scrollTrigger: {
     trigger: ".immersive-tech",
-    scroller: "body",
+    scroller: "#main",
     // start: "top 50%",
     end:"top 2%",
     // markers:true,
