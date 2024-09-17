@@ -182,3 +182,32 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
+
+
+
+//==============================================================================
+// --------------------------------Gsap Animation-------------------------------
+//==============================================================================
+
+var tl = gsap.timeline();
+
+
+gsap.from(".immersive-tech .immersive-tech-child2 .immersive-tech-child2-childs", {
+  // opacity: 0,
+  // scale: 1.2,
+  duration: 1,
+  y:200,
+ 
+    // scrub: 5,
+  // stagger: 1,
+  scrollTrigger: {
+    trigger: ".immersive-tech",
+    scroller: "body",
+    // start: "top 50%",
+    end:"top 2%",
+    // markers:true,
+    scrub:1
+    // delay:.5
+  },
+  
+});
