@@ -521,7 +521,7 @@ body {
       }
     }
 
-    #ind-card-1 .ind-card-img {
+    #ind-card-1s .ind-card-img {
       background: url("./assets/Traning-Solutions.jpg");
       background-size: cover;
       border-radius: 10px 10px 0 0;
@@ -529,7 +529,7 @@ body {
       bottom: 5px;
     }
 
-    #ind-card-2 .ind-card-img {
+    #ind-card-2s .ind-card-img {
       background: url("./assets/Product-Solutions.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
@@ -537,7 +537,7 @@ body {
       bottom: 5px;
     }
 
-    #ind-card-3 .ind-card-img {
+    #ind-card-3s .ind-card-img {
       background: url("./assets/AR-VR-Labs.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
@@ -545,7 +545,7 @@ body {
       bottom: 5px;
     }
 
-    #ind-card-4 .ind-card-img {
+    #ind-card-4s .ind-card-img {
       background: url("./assets/Remote-Assistance.jpg");
       border-radius: 10px 10px 0 0;
       background-size: cover;
