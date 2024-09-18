@@ -271,7 +271,7 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -658,7 +658,7 @@ body {
   justify-content: center;
 
   img{
-    height: 400px;
+    height: 600px;
   }
 }
 
@@ -1128,7 +1128,7 @@ footer {
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
-    top: 200px;
+    top: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1980,4 +1980,3 @@ button[type="submit"] {
 .ind-card:hover .line {
   opacity: 1;
 }
-
