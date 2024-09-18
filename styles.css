@@ -796,15 +796,14 @@ footer {
   height: fit-content;
   width: 100%;
   display: flex;
-  padding-top: 70px;
-  padding-bottom: 100px;
   /* background: url("./assets/footer.png"); */
-  background-color: black;
+  background-color: rgb(10, 15, 23);
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
 
   h1 {
-    font-size: var(--hedding);
+    font-size: 40px;
     border-bottom: 1px solid var(--border);
     width: fit-content;
   }
@@ -812,6 +811,7 @@ footer {
   p {
     font-size: var(--para);
     margin-top: 10px;
+    text-align: center;
   }
 
   a {
@@ -826,8 +826,14 @@ footer {
 }
 
 .footer-left {
-  width: 50%;
-  padding-left: 120px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding-left: 120px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer-Right {
@@ -1433,6 +1439,7 @@ footer {
       font-size: 20px;
       color: white;
       text-decoration: none;
+      z-index: 99999999999;
     }
   }
 
@@ -1442,7 +1449,7 @@ footer {
 
   .footer-left {
     width: 100%;
-    padding-left: 20px;
+    padding: 10px;
   }
 
   .footer-Right {
