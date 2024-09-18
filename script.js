@@ -217,28 +217,26 @@ gsap.from(".immersive-tech .immersive-tech-child2 .immersive-tech-child2-childs"
 
 
 
-gsap.from(".OurSolutions .ind-child12 #ind-card-4s", {
-  opacity: 0,
-  // scale: 1.2,
-  // duration: 1,
-  y: 400,
+// gsap.from(".OurSolutions .ind-child12 #ind-card-4s", {
+//   opacity: 0,
+//   // scale: 1.2,
+//   // duration: 1,
+//   y: 400,
 
-  scrub: 5,
-  // stagger: 1,
-  scrollTrigger: {
-    trigger: "#ind-card-4s",
-    scroller: "body",
-    start: "top 80%",
-    end: "top 70%",
-    // markers: true,
-    // scrub: 1
-    // delay:.5
-  },
-
-
-});
+//   scrub: 5,
+//   // stagger: 1,
+//   scrollTrigger: {
+//     trigger: "#ind-card-4s",
+//     scroller: "body",
+//     start: "top 80%",
+//     end: "top 70%",
+//     // markers: true,
+//     // scrub: 1
+//     // delay:.5
+//   },
 
 
+// });
 
 
 
@@ -249,56 +247,29 @@ gsap.from(".OurSolutions .ind-child12 #ind-card-4s", {
 
 
 
-gsap.from(".OurSolutions .ind-child12 #ind-card-1s", {
-  opacity: 0,
-  // scale: 1.2,
-  // duration: 1,
-  x: -400,
-
-  scrub: 5,
-  // stagger: 1,
-  scrollTrigger: {
-    trigger: "#ind-card-1s",
-    scroller: "body",
-    start: "top 80%",
-    end: "top 70%",
-    // markers: true,
-    // scrub: 1
-    // delay:.5
-  },
 
 
+// gsap.from(".OurSolutions .ind-child12 #ind-card-1s", {
+//   opacity: 0,
+//   // scale: 1.2,
+//   // duration: 1,
+//   x: -400,
 
-});
+//   scrub: 5,
+//   // stagger: 1,
+//   scrollTrigger: {
+//     trigger: "#ind-card-1s",
+//     scroller: "body",
+//     start: "top 80%",
+//     end: "top 70%",
+//     // markers: true,
+//     // scrub: 1
+//     // delay:.5
+//   },
 
 
 
-
-
-
-
-
-
-gsap.from(".OurSolutions .ind-child12 #ind-card-2s", {
-  opacity: 0,
-  // scale: 1.2,
-  // duration: 1,
-  y: 400,
-
-  scrub: 5,
-  // stagger: 1,
-  scrollTrigger: {
-    trigger: "#ind-card-2s",
-    scroller: "body",
-    start: "top 70%",
-    end: "top 60%",
-    // markers: true,
-    // scrub: 1
-    // delay:.5
-  },
-
-
-});
+// });
 
 
 
@@ -308,25 +279,54 @@ gsap.from(".OurSolutions .ind-child12 #ind-card-2s", {
 
 
 
-gsap.from(".OurSolutions .ind-child12 #ind-card-3s", {
-  opacity: 0,
-  // scale: 1.2,
-  // duration: 1,
-  x: -400,
+// gsap.from(".OurSolutions .ind-child12 #ind-card-2s", {
+//   opacity: 0,
+//   // scale: 1.2,
+//   // duration: 1,
+//   y: 400,
 
-  scrub: 5,
-  // stagger: 1,
-  scrollTrigger: {
-    trigger: "#ind-card-3s",
-    scroller: "body",
-    start: "top 80%",
-    end: "top 70%",
-    // markers: true,
-    scrub: 1
-    // delay:.5
-  },
+//   scrub: 5,
+//   // stagger: 1,
+//   scrollTrigger: {
+//     trigger: "#ind-card-2s",
+//     scroller: "body",
+//     start: "top 70%",
+//     end: "top 60%",
+//     // markers: true,
+//     // scrub: 1
+//     // delay:.5
+//   },
 
-});
+
+// });
+
+
+
+
+
+
+
+
+
+// gsap.from(".OurSolutions .ind-child12 #ind-card-3s", {
+//   opacity: 0,
+//   // scale: 1.2,
+//   // duration: 1,
+//   x: -400,
+
+//   scrub: 5,
+//   // stagger: 1,
+//   scrollTrigger: {
+//     trigger: "#ind-card-3s",
+//     scroller: "body",
+//     start: "top 80%",
+//     end: "top 70%",
+//     // markers: true,
+//     scrub: 1
+//     // delay:.5
+//   },
+
+// });
 
 
 
