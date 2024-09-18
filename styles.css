@@ -656,6 +656,10 @@ body {
   margin-top: 20px;
   align-items: center;
   justify-content: center;
+
+  img{
+    height: 400px;
+  }
 }
 
 .contact-us-child {
@@ -1301,6 +1305,11 @@ footer {
     height: fit-content;
     flex-direction: column;
     margin-top: 50px;
+
+    
+  img{
+    display: none;
+  }
   }
 
   .contact-us-child {
@@ -1971,3 +1980,4 @@ button[type="submit"] {
 .ind-card:hover .line {
   opacity: 1;
 }
+
