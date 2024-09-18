@@ -446,6 +446,7 @@ body {
 
 .OurSolutions {
   width: 100%;
+  margin: 50px 0;
 
   .ind-child1 {
     display: flex;
@@ -800,7 +801,7 @@ footer {
   background-color: rgb(10, 15, 23);
   background-position: center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 50px 0;
 
   h1 {
     font-size: 40px;
@@ -974,10 +975,11 @@ footer {
 
   h1 {
     font-size: var(--hedding);
-    border-bottom: 2px solid var(--border);
+    /* border-bottom: 2px solid var(--border); */
     width: fit-content;
     margin-bottom: 10px;
-    /* font-weight: 100; */
+    font-weight: 100;
+    text-transform: capitalize;
   }
 
   p {
@@ -1118,7 +1120,7 @@ footer {
     
 
 .who-we-are{
-  height: 90vh;
+  height: 70vh;
   width: 100%;
   position: relative; 
   h1{
@@ -1988,4 +1990,13 @@ button[type="submit"] {
 
 .ind-card:hover .line {
   opacity: 1;
+}
+
+
+.copy{
+  color: white;
+  a{
+    color: white;
+    text-decoration: none;
+  }
 }
