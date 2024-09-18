@@ -1872,3 +1872,102 @@ button[type="submit"] {
 .hidden {
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ind-child2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ind-card {
+  width: 25%;
+  min-width: 350px;
+  height: 400px; /* Increased to accommodate the slider */
+  background-color: rgba(0, 0, 0, 0.689);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.ind-card-img-slider {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.ind-card-img-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.ind-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--border);
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.5s;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  padding: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.next:hover{
+  color: rgb(139, 139, 139);
+}
+.prev:hover{
+  color: rgb(139, 139, 139);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.ind-card:hover .line {
+  opacity: 1;
+}

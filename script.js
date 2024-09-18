@@ -226,3 +226,43 @@ window.onload = function() {
         tempDiv.style.display = 'none';
     }, 3000);
 };
+
+
+// =====================================================================
+const cards = document.querySelectorAll('.ind-card');
+
+cards.forEach((card) => {
+  const slides = card.querySelectorAll('.ind-card-img-slider img');
+  let currentSlide = 0;
+  slides[currentSlide].style.opacity = '1';
+
+  const showSlide = (index) => {
+    slides.forEach((slide, i) => {
+      slide.style.opacity = i === index ? '1' : '0';
+    });
+  };
+
+  const nextSlide = () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  };
+
+  const prevSlide = () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  };
+
+  // Auto-slide every 3 seconds
+  let autoSlideInterval = setInterval(nextSlide, 3000);
+
+  // Event listeners for manual control
+  card.querySelector('.next').addEventListener('click', () => {
+    clearInterval(autoSlideInterval); // Stop auto-slide on manual interaction
+    nextSlide();
+  });
+
+  card.querySelector('.prev').addEventListener('click', () => {
+    clearInterval(autoSlideInterval); // Stop auto-slide on manual interaction
+    prevSlide();
+  });
+});
