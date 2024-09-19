@@ -362,6 +362,8 @@ cards.forEach((card) => {
   // Auto-slide every 3 seconds
   let autoSlideInterval = setInterval(nextSlide, 3000);
 
+
+
   // Event listeners for manual control
   card.querySelector('.next').addEventListener('click', () => {
     clearInterval(autoSlideInterval); // Stop auto-slide on manual interaction
