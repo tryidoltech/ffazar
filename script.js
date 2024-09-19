@@ -49,18 +49,7 @@ document.getElementById("closePopup").addEventListener("click", function () {
   document.getElementById("popupForm").style.display = "none";
 });
 
-// Handle form submission with EmailJS
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault();
 
-  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
-    .then(function () {
-      alert("Email sent successfully!");
-      document.getElementById("popupForm").style.display = "none";
-    }, function (error) {
-      alert("Failed to send email: " + error);
-    });
-});
 
 
 // =========================================================================

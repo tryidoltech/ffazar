@@ -28,6 +28,7 @@ body {
   background: linear-gradient(109.6deg,
       rgb(20, 30, 48) 11.2%,
       rgb(36, 59, 85) 91.1%);
+      
 
   /* ========================================================== */
 
@@ -190,11 +191,11 @@ body {
   }
 
   .slide-child1 {
-    padding: 150px;
+    padding: 70px 120px;
 
     h1 {
-      font-size: 60px;
-      /* letter-spacing: 2px; */
+      font-size: 55px;
+      line-height: 1.2;
       text-transform: uppercase;
     }
 
@@ -280,7 +281,7 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
-    top: 140px;
+    top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -538,7 +539,7 @@ body {
     }
 
     #ind-card-2s .ind-card-img {
-      background: url("./assets/Product-Solutions.png");
+      background: url("./assets/process.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
       position: relative;
@@ -664,11 +665,22 @@ body {
   margin-top: 20px;
   align-items: center;
   justify-content: center;
+  gap: 0px;
+  background-image: radial-gradient(rgb(173, 173, 173) 1px, transparent 0px);
+  background-repeat: repeat; /* or omit this declaration */
+  background-size: 30px 30px;
+  background-position: center;
 
   img {
     height: 600px;
+    position: relative;
+    animation: imgMove infinite 3s;
+    transition: 1s;
   }
+  
 }
+
+  
 
 .contact-us-child {
   height: 100%;
@@ -992,6 +1004,9 @@ footer {
 
   p {
     font-size: var(--para);
+    padding: 0 100px;
+    text-align: center;    
+    margin: 0 auto;
   }
 }
 
@@ -1015,6 +1030,7 @@ footer {
   width: 100%;
   display: flex;
   align-items: center;
+  margin-top: 100px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -1325,6 +1341,7 @@ footer {
     flex-direction: column;
     margin-top: 50px;
 
+
     img {
       display: none;
     }
@@ -1433,6 +1450,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
+    
 
     h1 {
       font-size: 30px;
@@ -1524,6 +1542,7 @@ footer {
 
     p {
       font-size: 15px;
+      padding: 20px;
       text-align: center;
     }
   }
@@ -1532,6 +1551,7 @@ footer {
     height: fit-content;
     width: 100%;
     display: flex;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
