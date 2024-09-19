@@ -194,7 +194,7 @@ body {
 
     h1 {
       font-size: 60px;
-      letter-spacing: 2px;
+      /* letter-spacing: 2px; */
       text-transform: uppercase;
     }
 
