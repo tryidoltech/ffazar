@@ -2005,3 +2005,18 @@ button[type="submit"] {
     text-decoration: none;
   }
 }
+
+
+.rch{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  h1{
+    font-size: var(--hedding);
+    font-weight: 100;
+    border-bottom: 1px solid var(--border);
+    /* padding-bottom: 10px; */
+  }
+}
