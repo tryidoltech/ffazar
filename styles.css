@@ -1056,7 +1056,7 @@ footer {
 /*--------------------------- Responsive Section ------------------------*/
 /* ===================================================================== */
 
-@media (max-width: 854px) {
+@media (max-width: 768px) {
 
   /* ==============================nav bar===============================*/
   .navbar {
@@ -1148,7 +1148,7 @@ footer {
       /* border: 1px solid red; */
       width: 100%;
       position: absolute;
-      top: 300px;
+      top: 200px;
       display: flex;
       align-items: center;
       justify-content: center;
