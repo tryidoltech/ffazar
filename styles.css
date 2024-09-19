@@ -1681,6 +1681,14 @@ footer {
       height: 40vh;
     }
   }
+  .OurSolutions {
+    .ind-child1{
+
+      h1{
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 /* ===================================================================== */
@@ -2034,10 +2042,13 @@ button[type="submit"] {
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-image: radial-gradient(rgb(173, 173, 173) 1px, transparent 0px);
+  background-repeat: repeat; /* or omit this declaration */
+  background-size: 30px 30px;
+  background-position: center;
   h1{
     font-size: var(--hedding);
     font-weight: 100;
-    border-bottom: 1px solid var(--border);
     /* padding-bottom: 10px; */
   }
 }
