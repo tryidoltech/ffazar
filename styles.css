@@ -532,7 +532,7 @@ body {
     }
 
     #ind-card-1s .ind-card-img {
-      background: url("./t1.webp");
+      background: url("./tr1.png");
       background-size: cover;
       border-radius: 10px 10px 0 0;
       position: relative;
@@ -556,7 +556,7 @@ body {
     }
 
     #ind-card-4s .ind-card-img {
-      background: url("./assets/Remote-Assistance.jpg");
+      background: url("./rmt1.png");
       border-radius: 10px 10px 0 0;
       background-size: cover;
       position: relative;
