@@ -1680,6 +1680,12 @@ footer {
 
     .slide-child2 {
       height: 40vh;
+      margin: 0 auto;
+      width: fit-content;
+      img{
+        width: 100%;
+        margin: 0 auto;
+      }
     }
   }
   .OurSolutions {
